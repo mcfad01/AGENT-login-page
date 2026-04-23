@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 620px;
+    height: 710px;
+    border-radius: 14px;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.header1{
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    letter-spacing: -1;
+}
+.header1 p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #292929;
+    opacity: 80%;
+}
+
+/* Input Box */
+.names{
+    width: 540px;
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    margin-bottom: 30px;
+    font-size: medium;
+    justify-content: space-between;
+}
+
+.input-name1 input{
+    width: 260px;
+    height: 36px;
+    background-color: white;
+    border-radius: 12px;
+    border: 0.7px solid #cecece;
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+
+
+.input-name2 input{
+    width: 260px;
+    height: 36px;
+    background-color: white;
+    border-radius: 12px;
+    border: 0.7px solid #cecece;
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+
+
+.card .input-email{
+    width: auto;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: medium;
+}
+
+.input-email input{
+    width: 540px;
+    height: 36px;
+    background-color: white;
+    border-radius: 12px;
+    border: 0.7px solid #cecece;
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.selection{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 540px;
+    font-size: medium;
+    justify-content: space-between;
+}
+
+.selection select{
+    width: 260px;
+    height: 36px;
+    background-color: white;
+    border-radius: 12px;
+    border: 0.7px solid #cecece;
+    margin-top: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.message label{
+    display: block;
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.message textarea{
+    width: 540px;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+    border: 0.7px solid #cecece;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.legal-action{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+input[type="checkbox"]{
+    accent-color: #7939EE;
+}
+
+.card button{
+    width:540px;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #7939EE;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transform: 0.5s;
+}
+
+.card button:hover{
+    background-color: #9e6ff5;
+    width: 540px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card button a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+
+.logos li img{
+    width: auto;
+    height: 18px;
+    justify-content: center;
+}
+
+.logos ul{
+    width: 560px;
+    margin-left: -10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    justify-content: center;
+}
+
+.logos ul li{
+    list-style: none;
+    display: flex;
+    padding-left: 8px;
+}
+
+
+@media (max-width:768px) {
+    .card{
+        vertical-align: middle;
+        width: 400px;
+        height: 850px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header1{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .input{
+        align-content: center;
+    }
+
+    .names{
+        margin-top: 22px;
+        display: block;
+        width: 320px;
+        margin-left: 0px;
+
+    }
+
+    .input-name1 input{
+        width: 350px;
+    }
+    .input-name2 input{
+        width: 350px;
+    }
+
+    .card .input-email{
+        margin-left: 0px;
+    }
+
+    .input-email input{
+        width: 350px;
+    }
+
+.selection{
+    display: block;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.input-team select{
+    width: 350px;
+}
+
+.input-country select{
+    width: 350px;
+}
+
+.message label{
+    margin-left: 0px;
+}
+.message textarea{
+    width: 350px;
+    margin-left: 0px;
+}
+.legal-action{
+    margin-left: 0px;
+}
+
+.card button{
+    width: 350px;
+    margin-left: 0px;
+}
+
+.logos ul{
+    width: 460px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -70px;
+    gap: 0px;
+    margin-top: 10px;
+}
+
+}
