@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    overflow: hidden;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
 }
 
 .card{
@@ -203,8 +200,7 @@ input[type="checkbox"]{
         height: max-content;
         flex-direction: column;
         justify-content: flex-start;
-        margin-top: 0px;
-        border: 2px solid #7939EE;
+        padding-bottom: 20px;
     }
 
 
