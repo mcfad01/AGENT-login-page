@@ -200,6 +200,7 @@ input[type="checkbox"]{
         height: max-content;
         flex-direction: column;
         justify-content: flex-start;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
 
