@@ -197,7 +197,7 @@ input[type="checkbox"]{
     .card{
         vertical-align: middle;
         width: 400px;
-        height: 760px;
+        min-height: 100dvh;
         align-items: center;
         justify-content: center;
         margin-top: 0px;
