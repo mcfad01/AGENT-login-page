@@ -23,7 +23,7 @@
 
 .header1{
     margin-left: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: 10px;
     letter-spacing: -1;
 }
@@ -171,7 +171,7 @@ input[type="checkbox"]{
 
 .logos li img{
     width: auto;
-    height: 18px;
+    height: 26px;
     justify-content: center;
 }
 
@@ -197,14 +197,17 @@ input[type="checkbox"]{
     .card{
         vertical-align: middle;
         width: 400px;
-        height: 850px;
+        height: 760px;
         align-items: center;
         justify-content: center;
+        margin-top: 0px;
     }
 
     .header1{
-        margin-top: 0px;
         margin-left: 0px;
+    }
+    .header1 h1{
+        font-size: 18px;
     }
 
     .input{
@@ -212,7 +215,7 @@ input[type="checkbox"]{
     }
 
     .names{
-        margin-top: 22px;
+        margin-top: 8px;
         display: block;
         width: 320px;
         margin-left: 0px;
@@ -228,6 +231,7 @@ input[type="checkbox"]{
 
     .card .input-email{
         margin-left: 0px;
+        margin-top: -8px;
     }
 
     .input-email input{
@@ -237,8 +241,8 @@ input[type="checkbox"]{
 .selection{
     display: block;
     width: 350px;
-    margin-top: 10px;
     margin-left: 0px;
+    margin-top: -8px;
 }
 .input-team select{
     width: 350px;
@@ -262,15 +266,26 @@ input[type="checkbox"]{
 .card button{
     width: 350px;
     margin-left: 0px;
+    margin-top: 16px;
+}
+
+.card button:hover{
+    width: 350px;
 }
 
 .logos ul{
-    width: 460px;
+    width: 340px;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: -70px;
-    gap: 0px;
+    margin-left: 0px;
+    gap: 6px;
     margin-top: 10px;
+}
+
+.logos li img{
+    width: auto;
+    height: 16px;
+    justify-content: center;
 }
 
 }
